@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "bgO3DX6RN6d/hnykL8FW542InxMMLqlgmVy0D5NAA68=",
+  "Source": "FridaReads.Server",
+  "BasePath": "_content/FridaReads.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\PC6\\Documents\\FridaReads\\fridareads.client\\fridareads.client.esproj",
+      "Version": 2,
+      "Source": "fridareads.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
