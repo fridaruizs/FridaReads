@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FridaReads.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f698a32fa8461a26fa49cf7567643da44b517e07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62f0079d87068f584e512e7df3c9131dd7f71f33")]
 [assembly: System.Reflection.AssemblyProductAttribute("FridaReads.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FridaReads.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
