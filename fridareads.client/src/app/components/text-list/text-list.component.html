@@ -1,0 +1,16 @@
+<div *ngIf="texts.length > 0; else noTexts">
+    <ul>
+      <li *ngFor="let text of texts">
+        <h3>{{ text.name }}</h3>
+        <p>{{ text.author }}</p>
+        <p>{{ text.description }}</p>
+        <p>{{ text.readDate | date }}</p>
+        <p>Rating: {{ text.stars }}</p>
+        <p>{{ text.review }}</p>
+      </li>
+    </ul>
+  </div>
+  <ng-template #noTexts>
+    <p>No texts available.</p>
+  </ng-template>
+  

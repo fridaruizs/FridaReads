@@ -1,0 +1,10 @@
+<h1>User Texts</h1>
+
+<div class="container">
+  <div class="add-text">
+    <app-add-text (textAdded)="onTextAdded($event)"></app-add-text>
+  </div>
+  <div class="text-list">
+   <app-text-list [texts]="texts"></app-text-list>
+  </div>
+</div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "08I9Zy1YiBA=",
+  "dgSpecHash": "3v/B8S8hUp4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj",
+  "projectFilePath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC6\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\PC6\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

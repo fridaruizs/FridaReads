@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj": {}
+    "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj": {
+    "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj",
+        "projectUniqueName": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj",
         "projectName": "FridaReads.Server",
-        "projectPath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj",
+        "projectPath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\FridaReads.Server.csproj",
         "packagesPath": "C:\\Users\\PC6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads.Server\\obj\\",
+        "outputPath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC6\\AppData\\Roaming\\NuGet\\NuGet.Config",
