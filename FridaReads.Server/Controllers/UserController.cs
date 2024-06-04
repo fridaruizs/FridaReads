@@ -1,5 +1,6 @@
 ﻿using FridaReads.Server.BusinessLogics;
 using FridaReads.Server.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FridaReads.Server.Controllers
@@ -16,6 +17,7 @@ namespace FridaReads.Server.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> AddUser([FromBody] UserModel userModel)
         {
             try
@@ -27,6 +29,38 @@ namespace FridaReads.Server.Controllers
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
+        }
+
+        [HttpPut]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> UpdateUser([FromBody] UserModel userModel)
+        {
+            var user = await _userBusinessLogic.UpdateUser(userModel);
+            return Ok(user);
+        }
+
+        [HttpDelete]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> DeleteUser([FromBody] UserModel userModel)
+        {
+            await _userBusinessLogic.DeleteUser(userModel);
+            return NoContent();
+        }
+
+        [HttpGet("{id}")]
+        [Authorize]
+        public async Task<IActionResult> GetUserById(int id)
+        {
+            var user = await _userBusinessLogic.GetUserById(id);
+            return Ok(user);
+        }
+
+        [HttpGet]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userBusinessLogic.GetAllUsers();
+            return Ok(users);
         }
     }
 }

@@ -1,8 +1,8 @@
 <form (ngSubmit)="onSubmit()" #userForm="ngForm">
     <div>
-      <label for="username">Username</label>
-      <input type="text" id="username" required [(ngModel)]="user.username" name="username" #username="ngModel">
-      <div [hidden]="username.valid || username.pristine">
+      <label for="name">Username</label>
+      <input type="text" id="name" required [(ngModel)]="user.name" name="name" #name="ngModel">
+      <div [hidden]="name.valid || name.pristine">
         Username is required.
       </div>
     </div>

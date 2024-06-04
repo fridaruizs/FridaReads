@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "bgO3DX6RN6d/hnykL8FW542InxMMLqlgmVy0D5NAA68=",
+  "Hash": "jxYygxnU2KygilwmkhcUzotoRO/dtiGsz/e/VkLPRKQ=",
   "Source": "FridaReads.Server",
   "BasePath": "_content/FridaReads.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\PC6\\Documents\\FridaReads\\fridareads.client\\fridareads.client.esproj",
+      "Identity": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\fridareads.client\\fridareads.client.esproj",
       "Version": 2,
       "Source": "fridareads.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

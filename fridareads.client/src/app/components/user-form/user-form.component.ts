@@ -8,7 +8,7 @@ import { User } from '../../models/user.model';
   styleUrls: ['./user-form.component.css']
 })
 export class UserFormComponent {
-  user: User = { username: '', email: '', password: '', isAdmin: true, texts: [] };
+  user: User = { name: '', email: '', password: '', isAdmin: true, texts: [] };
 
   constructor(private userService: UserService) {}
 

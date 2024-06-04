@@ -5,4 +5,5 @@ export interface Text{
     readDate: Date;
     stars: number;
     review: string;
+    userId: number;
 }

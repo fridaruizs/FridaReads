@@ -22,16 +22,38 @@ namespace FridaReads.Server.BusinessLogics
             return _mapper.Map<UserModel>(addedUser);
         }
 
-        // only admins
-        public void UpdateUser(User user) { }
+        
+        public async Task<UserModel> UpdateUser(UserModel userModel)
+        {
+            // only admins
+            var user = _mapper.Map<User>(userModel);
+            var updatedUser = await _userRepository.UpdateAsync(user);
+            return _mapper.Map<UserModel>(updatedUser);
+        }
+
+        public async Task DeleteUser(UserModel userModel)
+        {
+            // only admins
+            var user = _mapper.Map<User>(userModel);
+            await _userRepository.DeleteAsync(user);
+        }
+        public async Task<UserModel> GetUserById(int id)
+        {
+            var user = await _userRepository.GetByIdAsync(id);
+            return _mapper.Map<UserModel>(user);
+        }
+        public async Task<User> GetUserByEmail(string email)
+        {
+            var user = await _userRepository.GetByEmailAsync(email);
+            return _mapper.Map<User>(user);
+        }
 
         // only admins
-        public void DeleteUser(User user) { }
-
-        // public User GetUserById(int id) {}
-
-        // only admins
-        // public List<User> GetAllUsers() { }
+        public async Task<List<UserModel>> GetAllUsers()
+        {
+            var users = await _userRepository.GetAllAsync();
+            return _mapper.Map<List<UserModel>>(users);
+        }
 
     }
 }
