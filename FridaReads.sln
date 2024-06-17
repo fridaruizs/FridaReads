@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridaReads.Server", "FridaReads.Server\FridaReads.Server.csproj", "{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FridaReads.Server", "FridaReads.Server\FridaReads.Server.csproj", "{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "fridareads.client", "fridareads.client\fridareads.client.esproj", "{84D68CF4-B0BF-4A50-A9E0-A2296A5CE139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridaReads.Tests", "FridaReads.Tests\FridaReads.Tests.csproj", "{FB3904F7-6B90-49B6-8596-BB983E06BC8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{84D68CF4-B0BF-4A50-A9E0-A2296A5CE139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84D68CF4-B0BF-4A50-A9E0-A2296A5CE139}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84D68CF4-B0BF-4A50-A9E0-A2296A5CE139}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FB3904F7-6B90-49B6-8596-BB983E06BC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3904F7-6B90-49B6-8596-BB983E06BC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3904F7-6B90-49B6-8596-BB983E06BC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3904F7-6B90-49B6-8596-BB983E06BC8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
