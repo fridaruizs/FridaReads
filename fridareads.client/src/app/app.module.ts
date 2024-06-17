@@ -5,10 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserFormComponent } from './components/user-form/user-form.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
-import { AuthComponent } from './components/auth/auth.component';
 import { TextListComponent } from './components/text-list/text-list.component';
 import { AddTextComponent } from './components/add-text/add-text.component';
 import { UserComponent } from './components/user/user.component';
@@ -23,14 +21,18 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatTableModule } from '@angular/material/table';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+// import { FlexLayouModule } from '@angular/flex-layout';
+// import { DateFnsModule } from '@angular/material-date-fns-adapter';
+// import { DateFnsAdapter, MAT_DATE_FNS_FORMATS } from '@angular/material-date-fns-adapter';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserFormComponent,
     SignupComponent,
     LoginComponent,
-    AuthComponent,
     TextListComponent,
     AddTextComponent,
     UserComponent
@@ -50,9 +52,30 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatCheckboxModule,
+    MatTableModule,
+    MatDatepickerModule,
+    // DateFnsModule,
+    // FlexLayouModule,
   ],
   providers: [
-    provideAnimationsAsync('noop')
+    provideAnimationsAsync('noop'),
+    /* {
+      provide: MAT_DATE_FNS_FORMATS,
+      useValue: {
+        // Specify your desired date format here
+        parse: {
+          dateInput: 'MM/YYYY',
+        },
+        display: {
+          dateInput: 'MM/YYYY',
+          monthYearLabel: 'MMM YYYY',
+          dateA11yLabel: 'LL',
+          monthYearA11yLabel: 'MMMM YYYY',
+        },
+      },
+    },
+    { provide: DateFnsAdapter, useClass: DateFnsAdapter }, */
   ],
   bootstrap: [AppComponent]
 })

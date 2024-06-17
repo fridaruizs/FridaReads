@@ -11,6 +11,7 @@ export class SignupComponent {
   email = '';
   password = '';
   isAdmin = false;
+  errorMessage: string = '';
 
   constructor(private authService: AuthService) { }
 
@@ -26,6 +27,7 @@ export class SignupComponent {
       console.log('User registered successfully', response);
     }, error => {
       console.error('Error registering user', error);
+      this.errorMessage = 'Invalid registering credentials';
     });
   }
 }

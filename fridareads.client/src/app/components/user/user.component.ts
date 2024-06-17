@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TextService } from '../../services/text.service';
 import { Text } from '../../models/text.model';
+import { MartinFierroService } from '../../services/martin.fierro.service';
 
 @Component({
   selector: 'app-user',
@@ -10,15 +11,21 @@ import { Text } from '../../models/text.model';
 export class UserComponent implements OnInit {
   texts: Text[] = [];
   userId: number;
+  phraseOfTheDay = "Hola!"
 
-  constructor(private textService: TextService)
+  constructor(private textService: TextService, private phraseService: MartinFierroService)
   {
     this.userId = parseInt(localStorage.getItem('userId') || '0', 10);
   }
 
   ngOnInit(): void {
-    this.getTextsByUser();
+    // this.getTextsByUser();
+    this.phraseService.getRandomPhrase().subscribe(phrase => { 
+      this.phraseOfTheDay = phrase;
+    })
+    
   }
+
   getTextsByUser(): void {
     if (this.userId != 0) {
       this.textService.getTextsByUser(this.userId).subscribe(texts => {
@@ -30,7 +37,6 @@ export class UserComponent implements OnInit {
   }
 
   onTextAdded(text: any): void {
-    console.log(text);
     this.textService.addText(text).subscribe(newText => {
       this.texts.push(newText);
     });

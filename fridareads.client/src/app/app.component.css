@@ -1,16 +1,18 @@
-﻿:host {
-    max-width: 1280px;
-    padding: 2rem;
-    text-align: center;
+﻿html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-table {
-    margin: 0 auto;
+#app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .toolbar-spacer {
@@ -18,7 +20,7 @@ table {
   }
   
   mat-sidenav-container {
-    height: calc(100vh - 64px);
+    flex: 1
   }
   
   .content-container {

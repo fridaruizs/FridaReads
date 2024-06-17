@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Text } from '../../models/text.model';
 import { TextService } from '../../services/text.service';
 
@@ -8,6 +8,7 @@ import { TextService } from '../../services/text.service';
   styleUrls: ['./add-text.component.css']
 })
 export class AddTextComponent {
+  @Input() editingText: Text | null = null;
   text: Text = {
     name: '',
     author: '',
@@ -25,6 +26,7 @@ export class AddTextComponent {
    }
 
   onSubmit(): void {
+    // IF EDITING CHNAGE
     this.text.userId = this.userId;
     this.textService.addText(this.text).subscribe(newText => {
       console.log('Text added successfully', newText);

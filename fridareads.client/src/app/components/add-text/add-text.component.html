@@ -1,28 +1,67 @@
-<form (ngSubmit)="onSubmit()">
-    <div>
-      <label for="name">Name</label>
-      <input type="text" id="name" [(ngModel)]="text.name" name="name" required>
-    </div>
-    <div>
-      <label for="author">Author</label>
-      <input type="text" id="author" [(ngModel)]="text.author" name="author" required>
-    </div>
-    <div>
-      <label for="description">Description</label>
-      <textarea id="description" [(ngModel)]="text.description" name="description" required></textarea>
-    </div>
-    <div>
-      <label for="readDate">Read Date</label>
-      <input type="date" id="readDate" [(ngModel)]="text.readDate" name="readDate" required>
-    </div>
-    <div>
-      <label for="stars">Stars</label>
-      <input type="number" id="stars" [(ngModel)]="text.stars" name="stars" required>
-    </div>
-    <div>
-      <label for="review">Review</label>
-      <textarea id="review" [(ngModel)]="text.review" name="review" required></textarea>
-    </div>
-    <button type="submit">Add Text</button>
-  </form>
-  
+<form (ngSubmit)="onSubmit()" #textForm="ngForm">
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput
+           placeholder="Enter name"
+           [(ngModel)]="text.name"
+           name="name"
+           required
+           [disabled]="editingText !== null">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Author</mat-label>
+    <input matInput
+           placeholder="Enter author"
+           [(ngModel)]="text.author"
+           name="author"
+           required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <textarea matInput
+              placeholder="Enter description"
+              [(ngModel)]="text.description"
+              name="description"
+              required></textarea>
+  </mat-form-field>
+
+  <!-- <mat-form-field>
+    <mat-label>Read Date</mat-label>
+    <input matInput
+           [matDatepicker]="readDatePicker"
+           placeholder="Choose a date"
+           [(ngModel)]="text.readDate"
+           name="readDate"
+           required>
+    <mat-datepicker-toggle matSuffix [for]="readDatePicker"></mat-datepicker-toggle>
+    <mat-datepicker #readDatePicker></mat-datepicker>
+  </mat-form-field> -->
+
+  <mat-form-field>
+    <mat-label>Stars</mat-label>
+    <input matInput
+           type="number"
+           placeholder="Enter rating"
+           [(ngModel)]="text.stars"
+           name="stars"
+           required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Review</mat-label>
+    <textarea matInput
+              placeholder="Enter review"
+              [(ngModel)]="text.review"
+              name="review"
+              required></textarea>
+  </mat-form-field>
+
+  <button mat-raised-button
+          type="submit"
+          color="primary"
+          [disabled]="textForm.invalid">
+    {{ editingText ? 'Update' : 'Add' }} Text
+  </button>
+</form>

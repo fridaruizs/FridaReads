@@ -1,10 +1,40 @@
-.container {
+  #welcome.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column !important;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
   }
   
-  .add-text, .text-list {
-    width: 48%;
+  .pink-text {
+    color: rgb(112, 35, 65);
+  }
+
+  i {
+    font-weight: bolder;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
   }
   
+  .text-center {
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .mr-2 {
+    margin-right: 8px;
+  }

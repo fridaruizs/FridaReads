@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Text } from '../../models/text.model';
 import { TextService } from '../../services/text.service';
 
@@ -8,8 +8,20 @@ import { TextService } from '../../services/text.service';
   styleUrls: ['./text-list.component.css']
 })
 export class TextListComponent implements OnInit {
-  @Input() texts: Text[] = [];
+  texts: Text[] = [];
   userId: number;
+
+  displayedColumns: string[] = ['name', 'author', 'description', 'readDate', 'stars', 'review', 'actions'];
+
+  editText(text: Text) {
+    // Open the add-text form in editing mode
+    // Pass the text object to the form for pre-filling
+  }
+
+  deleteText(text: Text) {
+    // Remove the text from the texts array
+    // You can also add a confirmation dialog if desired
+  }
 
   constructor(private textService: TextService) {
     this.userId = parseInt(localStorage.getItem('userId') || '0', 10);

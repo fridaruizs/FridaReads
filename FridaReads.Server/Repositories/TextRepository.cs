@@ -44,7 +44,7 @@ namespace FridaReads.Server.Repositories
                 .ToListAsync();
         }
 
-        public async Task<List<Text>> GetAllAsync()
+        public virtual async Task<List<Text>> GetAllAsync()
         {
             return await _context.Text.ToListAsync();
         }

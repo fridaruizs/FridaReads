@@ -1,16 +1,52 @@
-<form (ngSubmit)="onSignup()">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" [(ngModel)]="name" name="name" required>
+<form (ngSubmit)="onSignup()" #signupForm="ngForm">
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Registro</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput type="name" id="name" [(ngModel)]="name" name="name" required>
+        <mat-error *ngIf="signupForm.controls['name']?.invalid && signupForm.controls['name']?.touched">
+          Nombre requerido o inválido.
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" id="email" [(ngModel)]="email" name="email" required>
+        <mat-error *ngIf="signupForm.controls['email']?.invalid && signupForm.controls['email']?.touched">
+          Email requerido o inválido.
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input matInput type="password" id="password" [(ngModel)]="password" name="password" required>
+        <mat-hint>La contraseña debe tener al menos 8 caracteres, una letra mayúscula y un carácter especial.</mat-hint>
+        <mat-error *ngIf="signupForm.controls['password']?.errors?.['required'] && signupForm.controls['password']?.touched">
+          Contraseña requerida.
+        </mat-error>
+        <mat-error *ngIf="signupForm.controls['password']?.errors?.['minlength'] && signupForm.controls['password']?.touched">
+          La contraseña debe tener al menos 8 caracteres.
+        </mat-error>
+        <mat-error *ngIf="signupForm.controls['password']?.errors?.['pattern'] && signupForm.controls['password']?.touched">
+          La contraseña debe tener una letra mayúscula y un carácter especial.
+        </mat-error>
+      </mat-form-field>
+
+      <mat-checkbox id="isAdmin" [(ngModel)]="isAdmin" name="isAdmin">Permisos de administrador?</mat-checkbox>
+
+      <mat-error *ngIf="errorMessage">{{ errorMessage }}</mat-error>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit" [disabled]="signupForm.invalid">Registrarme</button>
+    </mat-card-actions>
+
+  </mat-card>    
     
-    <label for="email">Email:</label>
-    <input type="email" id="email" [(ngModel)]="email" name="email" required>
-    
-    <label for="password">Password:</label>
-    <input type="password" id="password" [(ngModel)]="password" name="password" required>
-    
-    <label for="isAdmin">Permisos de administrador?:</label>
-    <input type="checkbox" id="isAdmin" [(ngModel)]="isAdmin" name="isAdmin">
-    
-    <button type="submit">Registrarme</button>
   </form>
   

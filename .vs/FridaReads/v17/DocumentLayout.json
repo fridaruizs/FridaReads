@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB3904F7-6B90-49B6-8596-BB983E06BC8F}|FridaReads.Tests\\FridaReads.Tests.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.tests\\controllers\\usercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB3904F7-6B90-49B6-8596-BB983E06BC8F}|FridaReads.Tests\\FridaReads.Tests.csproj|solutionrelative:fridareads.tests\\controllers\\usercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB3904F7-6B90-49B6-8596-BB983E06BC8F}|FridaReads.Tests\\FridaReads.Tests.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.tests\\controllers\\textcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB3904F7-6B90-49B6-8596-BB983E06BC8F}|FridaReads.Tests\\FridaReads.Tests.csproj|solutionrelative:fridareads.tests\\controllers\\textcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\businesslogics\\textbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\businesslogics\\textbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\controllers\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\controllers\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\controllers\\martinfierrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\controllers\\martinfierrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,90 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Tests\\Controllers\\UserControllerTest.cs",
-              "RelativeDocumentMoniker": "FridaReads.Tests\\Controllers\\UserControllerTest.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Tests\\Controllers\\UserControllerTest.cs",
-              "RelativeToolTip": "FridaReads.Tests\\Controllers\\UserControllerTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Title": "MartinFierroController.cs",
+              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\MartinFierroController.cs",
+              "RelativeDocumentMoniker": "FridaReads.Server\\Controllers\\MartinFierroController.cs",
+              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\MartinFierroController.cs",
+              "RelativeToolTip": "FridaReads.Server\\Controllers\\MartinFierroController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T16:23:14.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TextControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Tests\\Controllers\\TextControllerTest.cs",
-              "RelativeDocumentMoniker": "FridaReads.Tests\\Controllers\\TextControllerTest.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Tests\\Controllers\\TextControllerTest.cs",
-              "RelativeToolTip": "FridaReads.Tests\\Controllers\\TextControllerTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T16:22:27.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TextController.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\TextController.cs",
-              "RelativeDocumentMoniker": "FridaReads.Server\\Controllers\\TextController.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\TextController.cs",
-              "RelativeToolTip": "FridaReads.Server\\Controllers\\TextController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDQAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T23:03:53.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TextBusinessLogic.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\BusinessLogics\\TextBusinessLogic.cs",
-              "RelativeDocumentMoniker": "FridaReads.Server\\BusinessLogics\\TextBusinessLogic.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\BusinessLogics\\TextBusinessLogic.cs",
-              "RelativeToolTip": "FridaReads.Server\\BusinessLogics\\TextBusinessLogic.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAmwCsAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T23:03:26.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Program.cs",
-              "RelativeDocumentMoniker": "FridaReads.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Program.cs",
-              "RelativeToolTip": "FridaReads.Server\\Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:26:46.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "FridaReads.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\appsettings.json",
-              "RelativeToolTip": "FridaReads.Server\\appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-03T22:26:00.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "FridaReads.Server\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "FridaReads.Server\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC8AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:09:45.509Z",
+              "WhenOpened": "2024-06-17T19:44:28.181Z",
               "EditorCaption": ""
             }
           ]
