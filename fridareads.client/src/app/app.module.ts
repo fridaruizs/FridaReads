@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { TextListComponent } from './components/text-list/text-list.component';
 import { AddTextComponent } from './components/add-text/add-text.component';
 import { UserComponent } from './components/user/user.component';
+import { AdminDashComponent } from './components/admin-dash/admin-dash.component';
 
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
@@ -35,7 +36,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     LoginComponent,
     TextListComponent,
     AddTextComponent,
-    UserComponent
+    UserComponent,
+    AdminDashComponent
   ],
   imports: [
     BrowserModule,

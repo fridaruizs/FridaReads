@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\controllers\\martinfierrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\controllers\\martinfierrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|c:\\users\\pc6\\documents\\fridareads\\fridareads\\fridareads.server\\controllers\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F323A1F1-CC52-4836-B57E-B4BA66BA6EC3}|FridaReads.Server\\FridaReads.Server.csproj|solutionrelative:fridareads.server\\controllers\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MartinFierroController.cs",
-              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\MartinFierroController.cs",
-              "RelativeDocumentMoniker": "FridaReads.Server\\Controllers\\MartinFierroController.cs",
-              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\MartinFierroController.cs",
-              "RelativeToolTip": "FridaReads.Server\\Controllers\\MartinFierroController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAJAAAA",
+              "Title": "TextController.cs",
+              "DocumentMoniker": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\TextController.cs",
+              "RelativeDocumentMoniker": "FridaReads.Server\\Controllers\\TextController.cs",
+              "ToolTip": "C:\\Users\\PC6\\Documents\\FridaReads\\FridaReads\\FridaReads.Server\\Controllers\\TextController.cs",
+              "RelativeToolTip": "FridaReads.Server\\Controllers\\TextController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:44:28.181Z",
+              "WhenOpened": "2024-06-17T21:39:10.745Z",
               "EditorCaption": ""
             }
           ]

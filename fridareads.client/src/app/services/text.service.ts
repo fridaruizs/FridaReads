@@ -27,6 +27,19 @@ export class TextService {
     return this.http.post<Text>(this.apiUrl, text, { headers: this.getHeaders() });
   }
 
+  deleteText(text: Text): Observable<void> {
+    const options = {
+      headers: this.getHeaders(),
+      body: text
+    };
+
+    return this.http.request<void>('DELETE', this.apiUrl, options);
+  }
+
+  updateText(text: Text): Observable<Text> {
+    return this.http.put<Text>(this.apiUrl, text, { headers: this.getHeaders() });
+  }
+
   private getHeaders(): HttpHeaders {
     const token = localStorage.getItem('jwtToken');
     return new HttpHeaders().set('Authorization', `Bearer ${token}`);
